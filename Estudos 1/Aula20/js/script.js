@@ -1,3 +1,4 @@
+// criando uma função para separar do código exterior e não conflitar com outras variáveis
 function meuEscopo() {
     const form = document.querySelector('.form');
     const resultado = document.querySelector('.resultado');
@@ -33,4 +34,5 @@ function meuEscopo() {
     // Adiciona um observador para meu evento
     form.addEventListener('submit', recebeEventoForm);
 }
+// Fazer nossa função aparecer
 meuEscopo();
