@@ -45,7 +45,7 @@ function recebeEvenetoForm(evento) { //função para receber o evento
     // vai escrever na minha div.res um parágrafo com as respostas
     res.innerHTML = `<p>Seu IMC é ${calculo.toFixed(2)} (${resultado})</p>`;
 }
-// Adiciona um observador para meu formulário quando enviar e recebe a função com rudo
+// Adiciona um observador para meu formulário quando enviar e recebe a função com tudo
 form.addEventListener('submit', recebeEvenetoForm); 
 
 
