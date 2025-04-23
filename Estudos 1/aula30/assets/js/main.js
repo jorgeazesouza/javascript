@@ -8,10 +8,10 @@ const diaSemana = data.getDay(); // Pegar o dia da semana
 const diaSemanaTexto = getdiaSemanaTexto(diaSemana); 
 
 // Transformar o dia da semana em texto
-function getdiaSemanaTexto(dia) {
+function getdiaSemanaTexto(diaSemana) {
     let diaSemanaTexto;
 
-    switch(dia) {
+    switch(diaSemana) {
         case 0:
             diaSemanaTexto = 'Domingo';
             return diaSemanaTexto;
@@ -93,3 +93,36 @@ const min = zeroAEsquerda(data.getMinutes()); // Pegar os minutos
 
 text.innerHTML = `${diaSemanaTexto}, ${dia} de ${mesTexto} de ${ano}`;
 text.innerHTML += `<div>${horas}:${min}</div>`;
+
+// Outras maneiras
+
+/* Maneira mais curta 
+    const text = document.querySelector('.container h1');
+    const data = new Date();
+    const opcoes = {
+        dateStyle: 'full',
+        timeStyle: 'short'
+    };
+
+    text.innerHTML = data.toLocaleString('pt-br', opcoes);
+*/
+
+/* Utilizando Arrays nas funções
+const mes = data.getMonth() + 1; // Pegar o mês
+const mesTexto = getMesTexto(mes);
+
+function getMesTexto(mes) {
+    const meses = ['Janeiro', 'Fevereiro', 'Março', 'abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+
+    return meses[mes];
+}
+
+const diaSemana = data.getDay(); // Pegar o dia da semana
+const diaSemanaTexto = getdiaSemanaTexto(diaSemana); 
+
+function getdiaSemanaTexto(diaSemana) {
+    const diaSemanaTexto = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado']
+
+    return diaSemanaTexto[diaSemana];
+}
+*/
