@@ -1,6 +1,3 @@
-const data = new Date('1987-04-21 00:00:00');
-const diaSemana = data.getDay();
-
 /* Utilizando Função */
 function getDayWeekText(diaSemana) {
     let diaSemanaTexto;
@@ -31,9 +28,14 @@ function getDayWeekText(diaSemana) {
             diaSemanaTexto = '';
             return diaSemanaTexto;
     }
-
-    return diaSemanaTexto;
 }
+
+const data = new Date('1987-04-20 00:00:00');
+const diaSemana = data.getDay();
+const diaSemanaTexto = getDayWeekText(diaSemana);
+
+console.log(`${diaSemana} - ${diaSemanaTexto}`);
+
 /* Utilizando Switch
 let diaSemanaTexto;
 
