@@ -1,20 +1,6 @@
-/*
-Luiz Otávio Miranda tem 30 anos pesa 84kg
-tem 1.80 de 1.80 e sei IMC é de undefined
-Luiz Otávio nasceu em 1995.
-*/
-
-const nome = 'Luiz Otávio';
-const sobrenome = 'Miranda';
-const idade = 30;
-const peso = 84;
-const alturaEmM = '1.80';
-let indiceMassaCorporal; // peso / (altura * altura)
-let anoNascimento;
-
-imc = peso / alturaEmM ** 2;
-anoNascimento = 2025 - idade;
-
-console.log(`${nome} ${sobrenome} tem ${idade} anos pesa ${peso}kg`);
-console.log(`tem ${alturaEmM} de ${alturaEmM} e sei IMC é de ${indiceMassaCorporal}`);
-console.log(`${nome} nasceu em ${anoNascimento}.`);
+// Crie uma variável com let chamada pontuacao e atribua o valor 0.
+// Depois, aumente a pontuação duas vezes (adicione +10 e depois +15) e mostre o valor final no console.
+let pontuacao = 0;
+pontuacao = pontuacao + 10;
+pontuacao = pontuacao + 15;
+console.log(pontuacao);
