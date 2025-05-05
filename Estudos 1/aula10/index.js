@@ -12,6 +12,12 @@ Concatenação
 num1 = '5';
 console.log(num1 + num2);
 
+( - ) -> Subtração
+
+const num1 = 5;
+const num2 = 10;
+console.log(num1 - num2);
+
 ( * ) -> Multiplicação
 
 const num1 = 5;
@@ -23,12 +29,6 @@ console.log(num1 - num2);
 const num1 = 5;
 const num2 = 10;
 console.log(num1 / num2);
-
-( - ) -> Subtração
-
-const num1 = 5;
-const num2 = 10;
-console.log(num1 - num2);
 
 ( ** ) -> Potenciação
 
