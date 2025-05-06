@@ -1,6 +1,10 @@
 //               0123456789  
 let umaString = "O rato roeu a roupa do rei de roma.";
 
+// Escapar um caractere
+let umaString1 = "Um \"texto\"";
+console.log(umaString1);
+
 // Encontrar a palavra
 console.log(umaString.indexOf('texto')); 
 console.log(umaString.indexOf('o', 3));
@@ -8,7 +12,7 @@ console.log(umaString.lastIndexOf('m', 3)); // Busca de trás para frente
 
 // Expressão regular
 console.log(umaString.match(/[a-z]/g));
-console.log(umaString.search(/[x]/));
+console.log(umaString.search(/x/));
 
 // Substituir palavras
 console.log(umaString.replace('Um', 'Outra'));
