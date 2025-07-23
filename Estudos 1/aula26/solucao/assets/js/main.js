@@ -49,7 +49,7 @@ function getImc (peso, altura) {
   return imc.toFixed(2);
 }
 
-// Funçãp que cria um parágrafo
+// Função que cria um parágrafo
 function criaP () {
   const p = document.createElement('p');
   return p;
