@@ -14,7 +14,7 @@ form.addEventListener('submit', function (evento) {
         peso: Number(peso.value), // Armazenando o valor de peso e convertendo para number
         altura: Number(altura.value) // Armazenando o valor de altura e convertendo para number
     };
-
+    
     // Calculo do IMC
     const calculo = calc(0) // definindo o valor da minha função calc como 0
     function calc() {
