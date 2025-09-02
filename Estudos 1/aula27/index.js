@@ -1,8 +1,8 @@
 // Operadores ternários -> ? :
 const pontuacaoUsuario = 1000;
 
-// (condição) ? -> 'Valor para verdadeiro' : -> 'valor para falso';
-const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuários VIP' : 'Usuário normal';
+// (condição) ? 'Valor para verdadeiro' : 'valor para falso';
+const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuário VIP' : 'Usuário normal';
 /*
 if(pontuacaoUsuario >= 1000) {
     console.log('Usuário VIP');
@@ -12,7 +12,7 @@ if(pontuacaoUsuario >= 1000) {
 */
 console.log(nivelUsuario);
 
-const corUsuario = 'Pink';
-const corPadrao = corUsuario || 'Preta';
+const corUsuario = 'Rosa';
+const corPadrao = corUsuario || 'Preto';
 
 console.log(corPadrao);

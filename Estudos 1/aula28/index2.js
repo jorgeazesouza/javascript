@@ -1,5 +1,6 @@
 function zeroAEsquerda(num) {
-    return num >= 10 ? num :`0${num}`;
+//         condição ? valorSeVerdadeiro : valorSeFalso;
+    return num >= 10 ? num : `0${num}`;
 }
 
 function formataData(data) {
