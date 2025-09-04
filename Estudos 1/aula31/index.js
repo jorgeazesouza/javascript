@@ -1,7 +1,7 @@
 /*
 // 1ª - diferença
 
-// não podemos redeclarar a variável, somente o valor dela
+// não podemos redeclarar a variável let, somente o valor dela
 let nome = 'Jorge';
 nome = 'Pedro';
 
@@ -32,9 +32,12 @@ if(verdadeira) {
         var nome2 = 'Ronaldo'; // redeclarando
     }
 }
-console.log(nome, nome2);
+console.log(nome, nome2); // Jorge Ronaldo
 */
 /*
+
+// variaveis var dentro da função não podem ser puchadas fora dela, mas uma função pode puchar uma variável fora da função no bloco anterior
+
 const verdadeira = true;
 
 function falaOi() {
@@ -48,4 +51,10 @@ function falaOi() {
 }
 
 falaOi();
+*/
+/*
+// Hoisting 
+// var sobrenome;
+console.log(sobrenome); // undefined
+var sobrenome = 'Azevedo'; // leva a declaração da variável para o topo do código
 */
