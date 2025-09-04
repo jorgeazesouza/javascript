@@ -40,5 +40,10 @@ function numberToMonth (transformMonth) {
         case 12: return 'Dezembro';
     }
 }
+// Função para criar o zero a esquerda
+function zeroToLeft (num) {
+    return num >= 10 ? num : `0${num}`;
+}
 
-text.innerHTML = `${numberToWeek()}, ${day} de ${numberToMonth()} de ${year} ${hour}:${minutes}`;
+text.innerHTML = `${numberToWeek()}, ${zeroToLeft(day)} de ${numberToMonth()} de ${year} ${zeroToLeft(hour)}:${zeroToLeft(minutes)}`;
+
