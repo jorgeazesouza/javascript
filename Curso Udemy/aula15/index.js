@@ -30,8 +30,8 @@ console.log(umaString.indexOf('o', 3)); // 7 - começa por um índice definido (
 // pesquisar por um índice pelo final utilizando a função lastIndexOf()
 // indice        01234567
 let umaString = 'Um texto';
-console.log(umaString.indexOf('o')); // 7
-console.log(umaString.indexOf('m', 3)); // 1
+console.log(umaString.lastindexOf('o')); // 7
+console.log(umaString.lastindexOf('m', 3)); // 1
 
 // Expressões regulares
 
