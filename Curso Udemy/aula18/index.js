@@ -87,3 +87,16 @@ console.log(typeof alunos); // object
 
 // Saber se a variável é uma instancia de Array
 console.log(alunos instanceof Array); // true
+
+/* 
+    Podemos alterar o array em uma variável const mas não podemos reatribuir um novo valor a ela
+    
+    const array = [0, 1, 2];
+    array.push(4);
+    array[0] = 'Jorge';
+    
+    console.log(array); // [ 'Jorge', 1, 2, 4 ]
+    
+    array = 'Outra coisa'; 
+    console.log(array); // Erro
+*/
