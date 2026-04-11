@@ -1,4 +1,4 @@
-// Atribuição via Desestruturação
+// Atribuição via Desestruturação com Arrays
 
 /*
 let A = 'A'; // B
